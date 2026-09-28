@@ -9,5 +9,5 @@ fs.readFile('myfile.txt', 'utf8', (err, data) => {
     sum = sum + parseInt(dataArray[i])
 }
 
-  console.log(sum);
+  console.log("The sum of all the numbers in the file is " + sum + "!");
 });
